@@ -1,9 +1,6 @@
-{% set hash = "27c49f63cea9e23a0b9618f71f4a4e992833cd1cfdf78ed832c69ceea1de1fe7" %}
 {% set name = "qtsass" %}
 {% set version = "0.3.0" %}
-{%- set name = "qtsass" -%}
-{%- set version = "0.1.1" -%}
-{%- set hash = "4b1491e9810c7216365647e416fd7b49aeadc1ac25add8c6131deddf7549a072" -%}
+{% set hash = "27c49f63cea9e23a0b9618f71f4a4e992833cd1cfdf78ed832c69ceea1de1fe7" %}
 
 package:
   name: {{ name|lower }}
@@ -15,7 +12,7 @@ source:
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
   noarch: python
   entry_points:
     - qtsass = qtsass.cli:main
@@ -46,3 +43,4 @@ about:
 extra:
   recipe-maintainers:
     - ccordoba12
+    - dalthviz
