@@ -5,9 +5,11 @@ Home: http://github.com/spyder-ide/qtsass
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qtsass-feedstock/blob/master/LICENSE.txt)
 
 Summary: Compile SCSS files to valid Qt stylesheets
+
+Development: http://github.com/spyder-ide/qtsass
 
 Compile SCSS files to valid Qt stylesheets
 
@@ -118,4 +120,5 @@ Feedstock Maintainers
 =====================
 
 * [@ccordoba12](https://github.com/ccordoba12/)
+* [@dalthviz](https://github.com/dalthviz/)
 
