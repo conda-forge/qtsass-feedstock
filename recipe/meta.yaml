@@ -1,6 +1,6 @@
 {% set name = "qtsass" %}
-{% set version = "0.3.0" %}
-{% set hash = "27c49f63cea9e23a0b9618f71f4a4e992833cd1cfdf78ed832c69ceea1de1fe7" %}
+{% set version = "0.3.1" %}
+{% set hash = "d60e2d78fa88437843bfa3fb2bcae4495baf0d366891e0a1ebca637192666306" %}
 
 package:
   name: {{ name|lower }}
