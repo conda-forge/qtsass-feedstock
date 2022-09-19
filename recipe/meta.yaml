@@ -1,6 +1,6 @@
 {% set name = "qtsass" %}
-{% set version = "0.3.1" %}
-{% set hash = "d60e2d78fa88437843bfa3fb2bcae4495baf0d366891e0a1ebca637192666306" %}
+{% set version = "0.3.2" %}
+{% set hash = "b70ad1d4a28339db435402f36995934744e65c69fa4d5d716738854abbf1d3b6" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - libsass
+    - libsass <=0.21.0
     - watchdog
 
 test:
