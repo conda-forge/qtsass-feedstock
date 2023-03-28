@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - libsass <=0.21.0
+    - libsass >=0.22.0
     - watchdog
 
 test:
