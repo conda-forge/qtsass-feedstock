@@ -1,11 +1,11 @@
-About qtsass
-============
+About qtsass-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qtsass-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/spyder-ide/qtsass
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qtsass-feedstock/blob/main/LICENSE.txt)
 
 Summary: Compile SCSS files to valid Qt stylesheets
 
